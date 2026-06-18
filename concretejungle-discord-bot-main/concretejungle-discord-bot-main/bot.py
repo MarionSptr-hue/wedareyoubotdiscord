@@ -41,12 +41,12 @@ for post in reversed(new_posts):
             {
                 "title": f"⭐ {post['title']}",
                 "url": post["link"],
-                "description": "Un nouveau visage vient d'apparaître dans les rues de Londres...\nVenez lui souhaiter la bienvenue ! 🎉",
+                "description": "Un nouveau visage vient d'apparaître dans les rues de Roselake...\nVenez lui souhaiter la bienvenue ! 🎉",
                 "color": 8145087,
                 "fields": [
                     {
                         "name": "Serveur",
-                        "value": "Concrete Jungle",
+                        "value": "We Dare You",
                         "inline": True
                     },
                     {
@@ -56,7 +56,7 @@ for post in reversed(new_posts):
                     }
                 ],
                 "footer": {
-                    "text": "Concrete Jungle — Bot de bienvenue"
+                    "text": "We Dare You — Bot de bienvenue"
                 }
             }
         ]
