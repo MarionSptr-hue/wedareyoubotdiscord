@@ -5,7 +5,7 @@ import json
 from datetime import datetime
 
 WEBHOOK = os.getenv("DISCORD_WEBHOOK")
-url = "https://concretejungle.forumactif.com/f11-roll-call"
+url = "https://wedareyou.forumactif.com/f13-story-of-my-life"
 headers = {
     "User-Agent": "Mozilla/5.0"
 }
@@ -24,7 +24,7 @@ new_posts = []
 for topic in topics:
     try:
         title = topic.text.strip()
-        link = "https://concretejungle.forumactif.com" + topic["href"]
+        link = "https://wedareyou.forumactif.com" + topic["href"]
         if link not in posted:
             new_posts.append({
                 "title": title,
